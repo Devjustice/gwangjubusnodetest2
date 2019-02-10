@@ -2,7 +2,7 @@
 var request = require('request');
 var cheerio = require('cheerio');
 var url = 'http://api.gwangju.go.kr/xml/arriveInfo';
-var queryParams = '?' + encodeURIComponent('ServiceKey') + '=6LlkzoJWKU8inq318FaLpoJU5DnMfCKiuOPaMndL6EhljQAuXZe0%2FUNe0WSAuygwcdufjkYBudRsGHqVmeucyw%3D%3D';  /* Service Key*/
+var queryParams = '?' + encodeURIComponent('ServiceKey') + '=ㅅㅋ';  /* Service Key*/
 queryParams += '&' + encodeURIComponent('serviceKey') + '=' + encodeURIComponent(''); /* */
 queryParams += '&' + encodeURIComponent('BUSSTOP_ID') + '=' + encodeURIComponent('2873'); /* 정류소 아이디 */
 
